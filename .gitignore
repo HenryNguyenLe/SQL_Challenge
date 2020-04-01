@@ -1,4 +1,6 @@
-pass# Byte-compiled / optimized / DLL files
+sql_key.py
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
