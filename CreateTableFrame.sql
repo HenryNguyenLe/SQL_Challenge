@@ -174,18 +174,18 @@ AND lname LIKE 'B%';
 
 --===============================================================================
 -- Attempt to use subQuerry but doesn't work. How to fix?
-SELECT e.emp_no, e.lname, e.fname, dept_info.dept_name
-FROM employees e
-WHERE e.emp_no IN
-	(SELECT de.emp_no
-	FROM dept_emp de
-	WHERE dept_no IN
-		(
-			SELECT di.dept_no
-			FROM dept_info di
-			WHERE dept_name IN ('Sales', 'Development')
-		)
-	);
+-- -- SELECT e.emp_no, e.lname, e.fname
+-- -- FROM employees e
+-- -- WHERE e.emp_no IN
+-- -- 	(SELECT de.emp_no
+-- -- 	FROM dept_emp de
+-- -- 	WHERE dept_no IN
+-- -- 		(
+-- -- 			SELECT di.dept_no
+-- -- 			FROM dept_info di
+-- -- 			WHERE dept_name IN ('Sales', 'Development')
+-- -- 		)
+-- -- 	);
 --===============================================================================
 
 
