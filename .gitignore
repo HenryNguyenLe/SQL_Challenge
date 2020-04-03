@@ -1,4 +1,5 @@
 general_keys.py
+BACKUP.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
