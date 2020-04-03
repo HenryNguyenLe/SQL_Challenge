@@ -1,4 +1,4 @@
 # SQL_Challenge
 SQL Source Codes
 
-![Image description](databasePic.jpg)
+![Image description](readmePic.jpg)
