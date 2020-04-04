@@ -28,7 +28,7 @@ While performing a quick QAQC check on an old employee database, several suspici
 
 ## Table of Contents
 * EmployeeSQL : folder contains all CSV files of employee database
-* .gitignore : contains not uploaded files
+* .gitignore : contains file names that are not uploaded
 * ERD_Codes : codes input into QuickDB to generate tables and ERD
 * Entity_Relationship_Diagram(ERD).png : picture of all tables in database with their relationship
 * PandasSQL : Jupyter Notebook contains codes to process data from SQL into Pandas, data analysis and visualization
