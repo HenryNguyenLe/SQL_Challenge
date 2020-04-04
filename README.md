@@ -1,4 +1,4 @@
-# Employee Database Investigation | An Untold Story That Yet To Be Uncovered
+# Employee Database Investigation | An Untold Story That Yet To Be Revealed
 ## Background
 While performing a quick QAQC check on an old employee database, several suspicious values appeared. The decision was made to further investigate the entire database consisting of 6 different CSV files by using SQL with postgreSQL, and Python with Pandas/ MatPlotLib for visualization.  
   
