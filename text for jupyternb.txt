@@ -1,0 +1,9 @@
+## Overview
+Techniques/ Tools:  
+* SQLAlchemy | Pandas | MatPlotLib
+
+Analysis:
+* Staff & Senior Staff salaries are more than that of Manager & Technique Leader
+* Senior Engineers made even less than Assistant Engineers and Engineers 
+* Employee ID # 499942 name is "April Foolsday"
+* Thus, this database is a self made-up and thus not reliable
