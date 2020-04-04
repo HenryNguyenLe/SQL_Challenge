@@ -1,6 +1,6 @@
 # Employee Database Investigation : An Untold Story
 ## Background
-While performing a quick QAQC check on an old employee database, several suspicious values appeared. The decision was made to further investigate the entire database consisting of 6 different CSV files by using SQL with postgreSQL, and Python with Pandas for visualization.  
+While performing a quick QAQC check on an old employee database, several suspicious values appeared. The decision was made to further investigate the entire database consisting of 6 different CSV files by using SQL with postgreSQL, and Python with Pandas/ MatPlotLib for visualization.  
   
   
 ![Image description](readmePic.jpg)  
@@ -19,8 +19,9 @@ While performing a quick QAQC check on an old employee database, several suspici
  * PostgresSQL | Jupyter Notebook | Visual Studio Code (VS Code)
  
  ### Investigation Findings
- After performing inspection, analysis and visualization of "salaries" table, many illogical data was uncovered:
+ After performing inspection, analysis and visualization of "salaries" table, a lot of illogical data was discovered:
 * Staff & Senior Staff salaries are more than that of Manager & Technique Leader
-* Senior Engineers made even less than Assistant Engineers and Engineers 
+* Senior Engineers make even less than Assistant Engineers and Engineers 
 * Employee ID # 499942 name is "April Foolsday"(very suspicious)
-* Thus, this database is a self made-up and thus not reliable
+
+=> Thus, this database is a self made-up and thus not reliable
