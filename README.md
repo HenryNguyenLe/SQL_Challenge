@@ -27,21 +27,21 @@ While performing a quick QAQC check on an old employee database, several suspici
 => Thus, this database is a self made-up and thus not reliable
 
 ## Table of Contents
-* EmployeeSQL : folder contains all CSV files of employee database
-* .gitignore : contains file names that are not uploaded
-* ERD_Codes : codes input into QuickDB to generate tables and ERD
-* Entity_Relationship_Diagram(ERD).png : picture of all tables in database with their relationship
-* PandasSQL : Jupyter Notebook contains codes to process data from SQL into Pandas, data analysis and visualization
-* README.md : overview of this project
-* query_tool.sql : SQL source code of query different data from the entire database
-* readmePic.png : picture embedded in the readme file
-* schema.sql : SQL source code to create the "skeleton" of database tables
+* **EmployeeSQL** : folder contains all CSV files of employee database
+* **.gitignore** : contains file names that are not uploaded
+* **ERD_Codes** : codes input into QuickDB to generate tables and ERD
+* **Entity_Relationship_Diagram(ERD).png** : picture of all tables in database with their relationship
+* **PandasSQL** : Jupyter Notebook contains codes to process data from SQL into Pandas, data analysis and visualization
+* **README.md** : overview of this project
+* **query_tool.sql** : SQL source code of query different data from the entire database
+* **readmePic.png** : picture embedded in the readme file
+* **schema.sql** : SQL source code to create the "skeleton" of database tables
 
 ## IMPORTANT
 * File name "general_keys.py" was not uploaded due to security reasons as it contains password and database name
 * In order for the "PandasSQL.ipynb" to work properly, create a file name: "general_keys.py" in the same folder with this PandasSQL.ipynb". In the content, type in the following:  
     - sql_key = '(put password here)'
     - db_key = '(put dabase name here)'
-* For example, if the password is myPassword and database name is myDBname:
+* For example, if the password is **myPassword** and database name is **myDBname**:
     - sql_key = 'myPassword'
     - db_key = 'myDBname'
