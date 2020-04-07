@@ -38,7 +38,7 @@ While performing a quick QAQC check on an old employee database, several suspici
 * schema.sql : SQL source code to create the "skeleton" of database tables
 
 ## IMPORTANT
-* File name "general_keys.py" was not uploaded due to security reasons as it contains password and database name.
+* File name "general_keys.py" was not uploaded due to security reasons as it contains password and database name
 * In order for the "PandasSQL.ipynb" to work properly, create a file name: "general_keys.py" in the same folder with this PandasSQL.ipynb". In the content, type in the following:  
     - sql_key ='<put your password here>'
     - db_key = '<put your dabase name here>'
