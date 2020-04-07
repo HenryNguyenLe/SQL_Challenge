@@ -36,3 +36,12 @@ While performing a quick QAQC check on an old employee database, several suspici
 * query_tool.sql : SQL source code of query different data from the entire database
 * readmePic.png : picture embedded in the readme file
 * schema.sql : SQL source code to create the "skeleton" of database tables
+
+## IMPORTANT
+* File name "general_keys.py" was not uploaded due to security reasons as it contains password and database name.
+* In order for the "PandasSQL.ipynb" to work properly, create a file name: "general_keys.py" in the same folder with this PandasSQL.ipynb". In the content, type in the following:  
+    - sql_key ='<put your password here>'
+    - db_key = '<put your dabase name here>'
+* For example:  
+    - sql_key = 'pass999'
+    - db_key = 'mydataBase'
