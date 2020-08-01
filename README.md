@@ -1,4 +1,4 @@
-# Employee Database Investigation | An Untold Story That Yet To Be Revealed
+# Employee SQL Database Investigation
 ## 1. Background
 While performing a quick QAQC check on an old employee database before migrating to a new database, several suspicious values appeared. In this project, a further investigation was conducted on the entire database consisting of 6 different CSVs to reveal any data integrity issues.
   
@@ -61,11 +61,12 @@ Thus, this database doesn't seem to be legitimate & reliable. Could be mock file
 * Source codes to complete this project are all uploaded to this repository.
     * `git clone https://github.com/henryle-n/SQL-DB-Investigation.git`
 * Recommend to start fresh with development environment. New environment can be created with either `conda` or `python` methods.
-* Install all modules needed that are listed in section 2.
-* File name "general_keys.py" was not uploaded due to security reasons as it contains password and database name
-* In order for the "PandasSQL.ipynb" to work properly, create a file name: "general_keys.py" in the same folder with this PandasSQL.ipynb". In the content, type in the following:  
-    - sql_key = '(put password here)'
-    - db_key = '(put dabase name here)'
-* For example, if the password is **myPassword** and database name is **myDBname**:
-    - sql_key = 'myPassword'
-    - db_key = 'myDBname'
+* Install all modules that are listed in section 2.
+* File name "general_keys.py" was not uploaded due to security reasons as it contains user password to the DB.In order for the "**PandasSQL.ipynb**" to work properly, create a file name: "**general_keys.py**" in the same folder with this file. Edit the content with following codes:
+    * `sql_key="<user-password>"`
+    * `db_key="<dabase-name>"`
+    * For example, if the password is *myPassword* and database name is *myDBname*:
+        * `sql_key = "myPassword"`
+        * `db_key = "myDBname"`
+        * Notice the double-quote `" "`, have to be in there.
+* If start from scratch, follow the general steps as listed in _section 4 - Process Overview_.
