@@ -9,7 +9,7 @@ While performing a quick QAQC check on an old employee database before migrating
  
 ## 2. Languages, Tools & Techniques
  * **Languages:**
-    * Python | SQL | Markdown
+    * Python 3 | SQL | Markdown
 * **Python Libraries/ Modules:**
     * SQLAlchemy | Pandas | MatPlotLib
 * **Database:**
@@ -17,7 +17,7 @@ While performing a quick QAQC check on an old employee database before migrating
 * **Software/ Applications:**
     * Jupyter Notebook | Visual Studio Code | <a href="https://app.quickdatabasediagrams.com/#/">Quick Database Diagrams (QDBD)</a>
 * **Operating System:**
-    * Windows 10 Pro, ver. 1909
+    * Windows 10 Pro v1909
 
 ## 3. Table of Contents
 
